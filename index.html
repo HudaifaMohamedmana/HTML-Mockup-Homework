@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+        <header class="mainHeader">
+
+            <!-- 1. Create 2 Seperate Divs that display your name and todays date -->
+            <div>
+                <h3>Hudaifa Mohamedmana</h3>
+            </div>
+            <div>
+                <h4>7/10/2024</h4>
+            </div>
+        </header>
+
+
+
+        <!-- Nav -->
+        <nav class="navbar">
+            <div class="companys">
+                <!-- 2. Create 4 Nav Tabs with Hyperlinks to your favorite shopping sites -->
+                <!-- 2a. Lined up Evenly but with different backgroundColors  -->
+                <a href="https://www.amazon.com">
+                    <div class="company" id="com_a">
+                        <p class="title"> amazon </p>
+                        <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7RD-D6qOKEzNbsWfnBUjSfQv4GYF3jBJloA&s" alt="amazon.">
+                    </div>
+                </a>     
+                <a href="https://www.adidas.com">
+                    <div class="company" id="com_b">
+                        <p class="title"> adidas </p>
+                        <img class="img1" src="data:image/jpeg;base64,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" alt="adidas">
+                    </div>
+                </a> 
+                <a href="https://www.nike.com">
+                    <div class="company" id="com_c">
+                        <p class="title"> nike </p>
+                        <img class="img1" src="https://w7.pngwing.com/pngs/762/674/png-transparent-swoosh-nike-logo-adidas-brand-nike-fashion-logo-adidas.png" alt="nike">
+                    </div>
+                </a> 
+                <a href="https://www.puma.com">
+                    <div class="company" id="com_d">
+                    <p class="title"> puma </p>
+                    <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZtpLh-Qk06xj4ErrmC208-YNaD9-Wo0hjeg&s" alt="puma">
+                    </div>
+                </a> 
+            </div>
+        </nav>
+        <!-- ---------------------- -->
+
+        <div class="sectionContainer">
+
+            <div>
+                <div>
+                <section>
+                     
+                    <!-- section1: Table with 2 rows -->
+                    <table class="table1">
+                        <tr>
+                            <th> car </th>
+                            <th> color </th>
+                        </tr>
+                        <tr>
+                            <td> Hyundai </td>
+                            <td> white </td>
+                        </tr>
+                        <tr>
+                            <td> BMW </td>
+                            <td> purple </td>
+                        </tr>
+
+                    </table>
+                    
+
+                </section>
+                </div>
+            
+                <section class="randomText">
+                    <p>
+                        In BMW's long history of building convertibles, its Z-badged models are among the best known. Offered exclusively with a folding soft top, the Z4 is a small two-seater tuned to drive like something between a grand tourer and sports car. The current Z4 was introduced for the 2020 model year and received a thorough refresh for 2023, which brought updates to styling and standard equipment. A manual transmission and a host of other upgrades are available for 2025.
+                    </p>
+
+     
+                    <!-- section3: randomText that increases in size when hovered over it -->
+                     Section
+                </section>
+            </div>
+  
+
+            <div class="carSec">
+                <section class="CarPic">
+                     <!-- section2: 2 images both with txt boxes below them describing pic -->
+                    <div>
+                        <img src="https://i.ytimg.com/vi/Jaavwiu9aeg/sddefault.jpg" alt="car">
+                        <p>2021 Hyundai Tucson Ultimate Polar White</p>
+                    </div>
+                    <div>
+                        <img src="https://www.motortrend.com/uploads/2023/10/2-2024-BMW-z4-m40i-front-view.jpg" alt="bmw">
+                        <p>2024 BMW Z4 Expert Review</p>
+                    </div>  
+                </section>
+            </div>
+
+
+
+        </div>
+    
+        <!-- --------------productsSection -->
+
+        <!-- Article -->
+        <!-- img  ---- -txtDesc -->
+
+        <!-- ---------------------- -->
+        <!-- Footer -->
+        <script src="app.js" async defer></script>
+    </body>
+</html>
